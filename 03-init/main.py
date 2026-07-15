@@ -25,3 +25,10 @@ class PersonnalComputer:
     def turn_off(self) -> None:
         self.state = 'OFF'
         print(f'{self.brand}: OFF')
+
+
+# create an object of the class
+pc1 = PersonnalComputer('Dell')
+# call the method
+pc1.turn_on()
+pc1.turn_off()
